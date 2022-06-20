@@ -32,9 +32,9 @@ Please see the two notebooks [[Auto-encoders](./autoencoders.ipynb)] [[CycleGAN]
 ### CycleGAN
 - Model Overview
     - Conversion of original dirty input to its translated clean output
-    ![CycleGAN Image 1](https://miro.medium.com/max/1400/1*-7JKDTvulO6o4t4RRU5MJQ.png)
+    ![CycleGAN Image 1](images/CycleGAN1.png)
     - Conversion of original clean input to its translated dirty output
-    ![CycleGAN Image 2](https://miro.medium.com/max/1400/1*0C34D2bEHmiyTbNzH8o5nQ.png)
+    ![CycleGAN Image 2](images/CycleGAN2.png)
 - Parameter Settings
     - Epoch: 80
     - Batch size: 6
