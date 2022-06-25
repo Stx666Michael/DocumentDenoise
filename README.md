@@ -13,6 +13,8 @@ The training/testing dataset is downloaded from [Kaggle - Denoising Dirty Docume
 
 Please see the two notebooks [[Auto-encoders](./autoencoders.ipynb)] [[CycleGAN](./cycleGAN.ipynb)] for more details.
 
+For denoising images directly using pre-trained models from the notebooks above, please refer to the following notebooks [[Auto-encoders](./denoising_ae.ipynb)] [[CycleGAN](./denoising_cg.ipynb)].
+
 ## Models
 
 ### Auto-encoders
@@ -24,6 +26,7 @@ Please see the two notebooks [[Auto-encoders](./autoencoders.ipynb)] [[CycleGAN]
     - Input/output size: 540*420
     - Data split on training set: 85% training, 15% validation
     - Optimizer: Adam
+    - Learning rate: 0.001
     - Loss: mean squared error (MSE)
     - Metrics: mean absolute error (MAE)
 - Error evolution on epochs
@@ -40,7 +43,8 @@ Please see the two notebooks [[Auto-encoders](./autoencoders.ipynb)] [[CycleGAN]
     - Batch size: 6
     - Input/output size: 512*512
     - Data split on training set: 100% training
-    - Optimizer: Adam (2e-4, beta_1=0.5)
+    - Optimizer: Adam (beta_1=0.5)
+    - Learning rate: 0.0002
     - Loss: cycle consistency loss
 - Training Process
     - Forward Mapping
