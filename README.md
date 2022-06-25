@@ -9,11 +9,11 @@ The work is based on relevant papers and implementations:
 - Auto-encoders [[paper](https://ieeexplore.ieee.org/document/8262546)] [[code](https://www.kaggle.com/competitions/denoising-dirty-documents/code)]
 - CycleGAN [[paper](https://arxiv.org/abs/1703.10593)] [[code](https://www.tensorflow.org/tutorials/generative/cyclegan)]
 
-The training/testing dataset is downloaded from [Kaggle - Denoising Dirty Documents](https://www.kaggle.com/competitions/denoising-dirty-documents). The zipped dataset is already stored in `./zip/` for use in the notebooks.
+The training/testing dataset is downloaded from [Kaggle - Denoising Dirty Documents](https://www.kaggle.com/competitions/denoising-dirty-documents). The zipped dataset is stored in `./zip/` for direct use.
 
 Please see the two notebooks [[Auto-encoders](./training_ae.ipynb)] [[CycleGAN](./training_cg.ipynb)] for more details.
 
-For denoising images directly using pre-trained models from the notebooks above, please refer to the following notebooks [[Auto-encoders](./denoising_ae.ipynb)] [[CycleGAN](./denoising_cg.ipynb)].
+For denoising images using pre-trained models from the notebooks above, please refer to the following notebooks [[Auto-encoders](./denoising_ae.ipynb)] [[CycleGAN](./denoising_cg.ipynb)].
 
 ## Models
 
