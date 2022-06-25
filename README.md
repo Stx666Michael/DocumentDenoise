@@ -70,3 +70,16 @@ For denoising images using pre-trained models from the notebooks above, please r
 ![compare1](images/compare1.png)
 - Preformance on [invoice images](https://www.google.com/search?q=noisy+invoice&tbm=isch&sxsrf=ALiCzsYRG6sIvU0n92yRWrcYLenFaEWeig%3A1655730210306&source=hp&biw=1438&bih=823&ei=InCwYqfwENDXgQajyauwBQ&iflsig=AJiK0e8AAAAAYrB-MsEzgLgBBgGm8KyXcYTcnNoH_Cs1&oq=&gs_lcp=CgNpbWcQAxgBMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnMgcIIxDqAhAnUABYAGC9D2gBcAB4AIABAIgBAJIBAJgBAKoBC2d3cy13aXotaW1nsAEK&sclient=img)
 ![compare2](images/compare2.png)
+
+## Other Pre-processing Methods
+
+### Skew Correction
+*Skew Correction* using *Hough Transform* is implemented [here](./skew_correction.ipynb). The steps are:
+1. Apply _Canny filter_ (sigma=1) to detect edges (the filtered image is shown in right below)
+2. Find _Hough_ lines between 75-to-105-degree angle (which is in horizontal direction, shown in red lines)
+3. Find the angle with the highest occurrence in these lines, then rotate the image with that angle
+
+
+### Binarization
+*Local Adaptive Thresholding* implemented by MATLAB is provided [here](./adaptive_threshold.m), which is optimized to be an effective binarization method.
+
