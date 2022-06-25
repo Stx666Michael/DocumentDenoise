@@ -11,7 +11,7 @@ The work is based on relevant papers and implementations:
 
 The training/testing dataset is downloaded from [Kaggle - Denoising Dirty Documents](https://www.kaggle.com/competitions/denoising-dirty-documents). The zipped dataset is already stored in `./zip/` for use in the notebooks.
 
-Please see the two notebooks [[Auto-encoders](./autoencoders.ipynb)] [[CycleGAN](./cycleGAN.ipynb)] for more details.
+Please see the two notebooks [[Auto-encoders](./training_ae.ipynb)] [[CycleGAN](./training_cg.ipynb)] for more details.
 
 For denoising images directly using pre-trained models from the notebooks above, please refer to the following notebooks [[Auto-encoders](./denoising_ae.ipynb)] [[CycleGAN](./denoising_cg.ipynb)].
 
