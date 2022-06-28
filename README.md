@@ -1,8 +1,6 @@
 # Document Denoise
 
 ## Background
-This is part of the work in **[FURP-1] Research on the Document Text Recognition using OCR Techniques** on summer 2022.
-
 Document Denoising is used in the pre-processing stage of OCR. There are many denoising techniques, this repository implements two _deep learning_ methods - Denoising by **Auto-encoders** and **CycleGAN**.
 
 The work is based on relevant papers and implementations:
