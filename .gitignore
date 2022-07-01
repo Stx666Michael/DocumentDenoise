@@ -1,5 +1,8 @@
 .DS_Store
 .ipynb_checkpoints/
 checkpoints/
-data/
+data/processed/
+data/to_process/
+data/easy_ocr_originals/
+data/easy_ocr_preprocessed/
 zip/
