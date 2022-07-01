@@ -1,8 +1,11 @@
 .DS_Store
+__pycache__/
 .ipynb_checkpoints/
 checkpoints/
 data/processed/
 data/to_process/
 data/easy_ocr_originals/
 data/easy_ocr_preprocessed/
+data/paddle_ocr_originals/
+data/paddle_ocr_preprocessed/
 zip/
