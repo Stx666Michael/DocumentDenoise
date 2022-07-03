@@ -2,10 +2,12 @@
 __pycache__/
 .ipynb_checkpoints/
 checkpoints/
-data/processed/
 data/to_process/
-data/easy_ocr_originals/
-data/easy_ocr_preprocessed/
-data/paddle_ocr_originals/
-data/paddle_ocr_preprocessed/
+data/processed/
+data/easy_originals/
+data/easy_preprocessed/
+data/paddle_originals/
+data/paddle_preprocessed/
+data/tesseract_originals/
+data/tesseract_preprocessed
 zip/
