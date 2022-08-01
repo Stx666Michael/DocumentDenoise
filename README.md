@@ -77,7 +77,10 @@ For denoising images using pre-trained models from the notebooks above, please r
 2. Find _Hough_ lines between 75-to-105-degree angle (which is in horizontal direction, shown in red lines)
 3. Find the angle with the highest occurrence in these lines, then rotate the image with that angle
 
-
 ### Binarization
 *Local Adaptive Thresholding* implemented by MATLAB is provided [here](./adaptive_threshold.m), which is optimized to be an effective binarization method.
 
+## OCR Techniques
+To demonstrate the effect of pre-processing on OCR results, several open-source OCR techniques are included, along with methods to visualize OCR result. Please see following notebooks [[Tesseract-OCR](./tesseract_ocr.ipynb)] [[EasyOCR](./easy_ocr.ipynb)] [[PaddleOCR](./paddle_ocr.ipynb)] for details.
+
+Other works done in this project, including _table structure recognition_, _table cell extraction_ and _recognition accuracy system_ are involved in [this](./table_recognition.ipynb) notebook.
